@@ -6,7 +6,7 @@ So, in pursuit of performance, I shoved the physics simulator (in my case, matte
 
 Since the speed at which I could apply updates from the physics simulation and still achieve sustainable render speeds without lagging varied from device to device, I decided the best way to decide on the FPS to run at would be ... let the app itself decide at run time. So instead of coding a fixed FPS, or giving the user a slider to adjust, I let my app measure and adjust it's FPS based on what it measures as sustainable while it's running.
 
-Enter my solution for my app, FpsAutoTuner: https://gist.github.com/josiahbryan/c4716f7c9f051d7c084b1536bc8240a0 - contributed here to the community in case it may help someone else solve a similar problem.
+Enter my solution for my app, **`FpsAutoTuner.js`**, contributed here to the community in case it may help someone else solve a similar problem.
 
 It's framework-agnostic, no external dependencies, written as an ES6 class, but could easily be rewritten as a ES5 if you wanted. 
 
