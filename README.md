@@ -48,7 +48,7 @@ Then later in the rendering portion of your code:
 this.fpsAutoTuner.countFrame();
 ```
 
-That's it! Your app will now automatically adjust it's FPS as needed when it detects lower/higher frame rates available. (FpsAutoTuner automatically starts it's auto-tuning timer in it's constructor.) There are plenty of options you can pass to FpsAutoTuner to tweak it - they are all documented at the top of the gist. Specifically of interest, you can set `tuningInterval` (default 5000ms) to change how often it measures/changes the FPS.
+That's it! Your app will now automatically adjust it's FPS as needed when it detects lower/higher frame rates available. (FpsAutoTuner automatically starts it's auto-tuning timer in it's constructor.) There are plenty of options you can pass to FpsAutoTuner to tweak it - they are all documented at the top of `FpsAutoTuner.js`. Specifically of interest, you can set `tuningInterval` (default 5000ms) to change how often it measures/changes the FPS.
 
 # Contrib
 
